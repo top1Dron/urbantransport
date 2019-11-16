@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Urban_Transport"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="452">
     <Grid>
-        
+        <TabControl>
+            <TabItem Header="Остановки"></TabItem>
+            <TabItem Header="Водители"></TabItem>
+        </TabControl>
     </Grid>
 </Window>
